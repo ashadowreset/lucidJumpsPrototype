@@ -1,0 +1,16 @@
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.Form1.resources
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.csproj.GenerateResource.cache
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.AssemblyInfoInputs.cache
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.AssemblyInfo.cs
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.csproj.CoreCompileInputs.cache
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\bin\Debug\net8.0-windows\LucidJumpsPrototype2.exe
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\bin\Debug\net8.0-windows\LucidJumpsPrototype2.deps.json
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\bin\Debug\net8.0-windows\LucidJumpsPrototype2.runtimeconfig.json
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\bin\Debug\net8.0-windows\LucidJumpsPrototype2.dll
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\bin\Debug\net8.0-windows\LucidJumpsPrototype2.pdb
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.dll
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\refint\LucidJumpsPrototype2.dll
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.pdb
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\LucidJumpsPrototype2.genruntimeconfig.cache
+C:\Users\carra\source\repos\Proyectosuade\LucidJumpsProto\LucidJumpsPrototype2\LucidJumpsPrototype2\obj\Debug\net8.0-windows\ref\LucidJumpsPrototype2.dll
