@@ -1,59 +1,43 @@
+using EngineGDI;
 using System;
 using System.Drawing;
-using System.Windows.Forms;
+using System.Media;
 using System.Numerics;
-using EngineGDI;
+using System.Security.Policy;
+using System.Windows.Forms;
 
 namespace LucidJumpsPrototype2
 {
     class Program
     {
-        //mostrar debug
-
-        //Por que las variables y las funciones son static? no se si es importante y en IDE me saltan varios errores por eso
-        //Los puse como comentarios para que no afecten al codigo, cualquier cosa se saca el comentario
-
+        public static Player player = new Player(0, 630, 1, 1, 0);
         public static bool showDebug = true;
         public static string currentMsg = "";
 
-        
-        //Posicion Jugador
-        /*
-         * Cambio: En lugar de una variable polloX y otra polloY
-         * lo cambio a vector y de ahi se puede tomar
-         */
-        public static Vector2 playerPosition = new Vector2(0,0);
+        public static Vector2 playerPosition = new Vector2(0, 0);
 
-        //Mecanica de Salto
-        /*
-         * Cambio: lo mismo para el salto utilizo una variable salto
-         * que multiplica da igual el eje
-         */
 
         public static float jumpForce = 20;
         public static float gravity = 10;
 
-        //DeltaTime
+
         public static float deltaTime;
         static DateTime lastFrameTime = DateTime.Now;
 
         public static int screenWidth = 1024;
         public static int screenHeight = 780;
+        public static List<object> scene_object = new List<object>();
 
-        /*
-         * Cambio: primero pongo las funciones que llama main y luego
-         * al final del todo coloco la funcion main. Para que, cuando
-         * llame a las otras funciones, estas ya estan definidas arriba
-         * mi profe de programacion dice que es una buena practica.
-         */
 
-        
-        static void draw()
-        {            
+
+
+
+        static void Draw()
+        {
             Engine.Draw("Fondo.png", 0, 0);
-            Engine.Draw("Pollo.png", playerPosition.X, playerPosition.Y, 0.1f, 0.1f);
+            player.Draw();
         }
-        
+
         static void PlayerColision()
         {
             playerPosition.Y += gravity;
@@ -68,7 +52,7 @@ namespace LucidJumpsPrototype2
             if (playerPosition.Y >= 630)
             {
                 playerPosition.Y = 630;
-            }            
+            }
 
             //Colision Eje X
             if (playerPosition.X < 0)
@@ -82,10 +66,18 @@ namespace LucidJumpsPrototype2
         }
         static void update()
         {
+            for (int i = 0; i < scene_object.Count; i++)
+            {
+                var obj = scene_object[i] as Player;
+                obj?.update();
+            }
+
+
+            // player.update();
             PlayerColision();
         }
 
-        
+
         static void input()
         {
             /*No entiendo este If, supuestamente la unica forma de subir es saltando no?
@@ -98,8 +90,9 @@ namespace LucidJumpsPrototype2
             No seria asi?
             */
 
-            if(Engine.IsKeyDown(Keys.Space))
+            if (Engine.IsKeyDown(Keys.Space))
             {
+                player.input();
                 playerPosition.Y += jumpForce * (-1); //Pongo "*(-1)" para que el salto vaya hacia arriba
             }
 
@@ -112,9 +105,36 @@ namespace LucidJumpsPrototype2
             if ((Engine.IsKeyDown(Keys.A)))
             {
                 playerPosition.X -= 0.8f;
-            }            
-            
-        }        
+            }
+
+        }
+
+        static public bool IsBoxColliding(Vector2 positionA, Vector2 sizeA, Vector2 positionB, Vector2 sizeB)
+        {
+
+            float distanceX = Math.Abs(positionA.X - positionB.X);
+            float distanceY = Math.Abs(positionA.Y - positionB.Y);
+
+
+            float sumHalfWidths = (sizeA.X / 2 + sizeB.X / 2);
+            float sumHalfHeight = (sizeA.Y / 2 + sizeB.Y / 2);
+
+            return distanceX <= sumHalfWidths && distanceY <= sumHalfHeight;
+
+        }
+
+        static public bool IsCircleColliding(Vector2 positionA, float radiusA, Vector2 positionB, float radiusB)
+        {
+
+            float distanceX = positionA.X - positionB.X;
+            float distanceY = positionA.Y - positionB.Y;
+
+            float totalDistance = (float)Math.Sqrt(distanceX * distanceX + distanceY * distanceY);
+
+
+            return totalDistance < radiusA + radiusB;
+
+        }
 
         static void calcDeltatime()
         {
@@ -123,15 +143,16 @@ namespace LucidJumpsPrototype2
             lastFrameTime = DateTime.Now;
         }
 
-        
+
         [STAThread]
         static void Main()
         {
             //En lugar de utilizar variables 
             Engine.Initialize("IERVA ENGINE", screenWidth, screenHeight, false);
 
-
-
+            scene_object.Add(player);
+            Player1 = new Player(100, 100, 1, 1, 0, "Pollo.png");
+            Enemy = new Player();
             while (Engine.IsWindowOpen)
             {
                 #region Engine Window Control
@@ -141,7 +162,7 @@ namespace LucidJumpsPrototype2
                 calcDeltatime();
                 input();
                 update();
-                draw();
+                Draw();
 
 
                 #region Engine Window Control
@@ -157,7 +178,7 @@ namespace LucidJumpsPrototype2
                 #endregion
             }
         }
-        
+
 
     }
 }

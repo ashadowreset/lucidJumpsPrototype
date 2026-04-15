@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LucidJumpsPrototype2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c87f914cb3b9436ee378844579b8f02023cca23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c67d8ea7cb7cf0ac386d1fedd37e2e0cf074ed9")]
 [assembly: System.Reflection.AssemblyProductAttribute("LucidJumpsPrototype2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LucidJumpsPrototype2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
