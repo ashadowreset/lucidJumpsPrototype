@@ -372,3 +372,43 @@ C:\Users\carra\OneDrive\Escritorio\Saltarin Trabajo\EngineGDI - Base Paradigmas\
 C:\Users\carra\OneDrive\Escritorio\Saltarin Trabajo\EngineGDI - Base Paradigmas\EngineGDI - Base.v2.4\EngineGDI\obj\Debug\EngineGDI.csproj.CoreCompileInputs.cache
 C:\Users\carra\OneDrive\Escritorio\Saltarin Trabajo\EngineGDI - Base Paradigmas\EngineGDI - Base.v2.4\EngineGDI\obj\Debug\EngineGDI.exe
 C:\Users\carra\OneDrive\Escritorio\Saltarin Trabajo\EngineGDI - Base Paradigmas\EngineGDI - Base.v2.4\EngineGDI\obj\Debug\EngineGDI.pdb
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\explosion-42132.wav
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Fondo.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\gunshot-352466.wav
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\laser-zap-90575.wav
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\pistol-shot-233473.wav
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Pollo.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\sound.wav
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\test.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\1.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\2.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\3.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\4.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\5.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\6.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\7.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\8.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle\0.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle\1.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle\2.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle\3.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito1.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito10.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito2.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito3.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito4.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito5.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito6.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito7.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito8.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\Textures\Animations\Idle_e\meteorito9.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\victoria_2.png
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\EngineGDI.exe.config
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\EngineGDI.exe
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\bin\Debug\EngineGDI.pdb
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.csproj.AssemblyReference.cache
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.Properties.Resources.resources
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.csproj.GenerateResource.cache
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.csproj.CoreCompileInputs.cache
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.exe
+C:\Users\gabos\OneDrive\Documentos\GitHub\lucidJumpsPrototype\EngineGDI\obj\Debug\EngineGDI.pdb

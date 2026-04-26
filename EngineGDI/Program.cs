@@ -1,6 +1,8 @@
 ﻿
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 
@@ -28,13 +30,22 @@ namespace EngineGDI
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        ///
+        ///
+        
+        static List<Platforms> platforms = new List<Platforms>(); //Crea las plataformas
+
         [STAThread]
         static void Main()
         {
 
             Engine.Initialize("IERVA ENGINE", SCREEN_WIDTH, SCREEN_HEIGHT, false);
+            
+            // Lista de Plataformas
+            platforms.Add(new Platforms(200, 600, 100, 10));
+            platforms.Add(new Platforms(000, 300, 100, 10));
 
-         
+
 
             while (Engine.IsWindowOpen)
             {
@@ -65,14 +76,19 @@ namespace EngineGDI
 
         static void draw()
         {
-            Engine.Draw("Fondo.png", 0, 0);
-            Engine.Draw("Pollo.png", polloX, polloY, 0.1f, 0.1f);
+            Engine.Draw("Fondo.png", 0, 0, 1, 1, 0, 0, 0.03f);
+            Engine.Draw("Pollo.png", polloX, polloY, 0.1f, 0.1f, 0f, 0.5f, 0.5f);
+
+            foreach (var platform in platforms)
+            {
+                platform.Draw();
+            }
         }
 
        static void update()
        {
-            
-          polloY = polloY + gravity;
+
+            polloY = polloY + gravity;
           if (polloY >= 630)
             {
                 gravity = 0;
@@ -103,7 +119,7 @@ namespace EngineGDI
             {
                 polloX = polloX - 0.8f;
             }
-            while ((Engine.IsKeyDown(Keys.Space) && (polloJumpX < 100)))
+            if ((Engine.IsKeyDown(Keys.Space) && (polloJumpX < 100)))
             {
                 polloJumpX = polloJumpX + 20;
                 polloJumpY = polloJumpY + 100;

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Engine.cs" />
+    <Compile Include="Platforms.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -87,6 +88,7 @@
     <Content Include="pistol-shot-233473.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Platform.png.png" />
     <Content Include="Pollo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
