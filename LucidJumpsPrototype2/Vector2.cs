@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LucidJumpsPrototype2
 {
-    struct Vector2
+    public struct Vector2
     {
 
 
